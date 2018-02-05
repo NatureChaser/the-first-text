@@ -1,7 +1,10 @@
 #include<stdio.h>
 int main()
 {
+    int i;
     printf("hello! \n");
     printf("the world of github!\n");
+    for(i=0;i<10;i++)
+        printf("* ");
     return 0;
 }
